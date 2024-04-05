@@ -11,8 +11,19 @@ See requirement.txt to create a conda virtual environment.
 
 ## yolov4.py (main program)
 
-Run this file to execute the whole workflow as shown below:
+Open this file to execute the whole workflow as shown below:
 
+
+The therminal command is given as Command_Terminal.txt file or can be found here:
 ABBILDUNG EINFÜGEN
+
+python yolov4.py -input_path input -output output -confidence 0.6
+
+*input = folder path to input video
+*output = folder for detection images and statistical evaluation [if not existing it will be created]
+*CS = confidence score; example: 0.6 means 60% confidence
+
+Further inputs are possible; please check the main skript for those. Additionally your piyel-to-micrometer ratio needs to be adapted in the yolov4.py as well as the input image size.
+Here it's importatnt that the input image size is a multiple of 32.
 
 ##
