@@ -16,9 +16,10 @@ from scipy.stats import norm
 import pandas as pd
 from fitter import Fitter
 
-# check line 115 for own input path
-# check line 346 for input
-# command input: 
+# check line 113 and 114 for labels and classes file (if adjustment necessary)
+# check line 115 for weights file (if adjustment necessary)
+# check line 116 for own input path
+# check line 346 for input --> image size should be next to original image size, a multiple of 32, and same values for wisth and length
 
 ref_length = 1.5 #Set Value
 pixel_length = 1000 #Set Value
@@ -151,8 +152,7 @@ def monitor_and_extract():
                     processed_videos.add(video_file)               
                     
                     main(output_folder, args)
-                    os.chdir(current_directory)
-                    
+                    os.chdir(current_directory)                    
                                    
             time.sleep(10)  # sleep for 10 seconds before checking again
 

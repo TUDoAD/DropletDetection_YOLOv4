@@ -1,7 +1,7 @@
-python yolov4.py -input_path input -output output -confidence CS
+python yolov4.py -input_path input -output output -confidence 0.6
 
 input = folder path to input video
 output = folder for detection images and statistical evaluation [if not existing it will be created]
-CS = confidence score; example: 0.9 means 90% confidence
+CS = confidence score; example: 0.6 means 60% confidence
 
 further inputs possible --> check yolov4.py
