@@ -12,7 +12,6 @@ See requirement.txt to create a conda virtual environment.
 ### yolov4.py (main program)
 
 Open this file to execute the whole workflow as shown below:
-[image](https://github.com/TUDoAD/DropletDetection_YOLOv4/tree/main/images/YOLO_Workflow_Repo.pdf)
 [image](./images/YOLO_Workflow_Repo.pdf)
 
 The therminal command is given as Command_Terminal.txt file or can be found here:
