@@ -14,7 +14,7 @@ See requirement.txt to create a conda virtual environment.
 Open this file to execute the whole workflow as shown below:
 <img src="./images/YOLO_Workflow_Repo.png" alt="YOLO_Workflow">
 
-Before running the AI-based detection, please download the weights checking Version 2 on zenodo.
+Before running the AI-based detection, please download the weights checking Version 2 on zenodo. <br>
 The therminal command is given as Command_Terminal.txt file or can be found here:
 
 python yolov4.py -input_path input -output output -confidence 0.6
@@ -26,12 +26,12 @@ python yolov4.py -input_path input -output output -confidence 0.6
 </ul> 
 
 Further inputs are possible; please check the main skript for those. Additionally your pixel-to-micrometer ratio needs to be adapted in the yolov4.py as well as the input image size.
-Here it's importatnt that the input image size is a multiple of 32.
-All information used for this work and program base on [1] and [2]. For further information those references are recoomended.
+Here it's importatnt that the input image size is a multiple of 32. <br>
+All information used for this work and program base on [1] and [2]. For further information those references are recommended.
 
 ### Example Video  
 
-An example video to test the program is given in the input folder. An output folder is already created, where the statistical evaluation as well as the images including the detection are saved.
+An example video to test the program is given in the input folder. An output folder is already created, where the statistical evaluation as well as the images including the detection are saved.<br>
 Actually one frame per second is extracted of the video. If a higher number is necessary, an adaption of the code is necessary.
 
 ### Training Data
