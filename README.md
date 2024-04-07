@@ -12,16 +12,17 @@ See requirement.txt to create a conda virtual environment.
 ### yolov4.py (main program)
 
 Open this file to execute the whole workflow as shown below:
-[image](./images/YOLO_Workflow_Repo.png)
 <img src="./images/YOLO_Workflow_Repo.png" alt="YOLO_Workflow">
 
 The therminal command is given as Command_Terminal.txt file or can be found here:
 
 python yolov4.py -input_path input -output output -confidence 0.6
 
-*input = folder path to input video
-*output = folder for detection images and statistical evaluation [if not existing it will be created]
-*CS = confidence score; example: 0.6 means 60% confidence
+ <ul>
+  <li>input = folder path to input video</li>
+  <li>output = folder for detection images and statistical evaluation [if not existing it will be created]</li>
+  <li>CS = confidence score; example: 0.6 means 60% confidence</li>
+</ul> 
 
 Further inputs are possible; please check the main skript for those. Additionally your piyel-to-micrometer ratio needs to be adapted in the yolov4.py as well as the input image size.
 Here it's importatnt that the input image size is a multiple of 32.
@@ -33,5 +34,5 @@ An example video to test the program is given in the input folder. An output fol
 Actually one frame per second is extracted of the video. If a higher number is necessary, an adaption of the code is necessary.
 
 ### References
-[1] Bochkovskiy A, Wang C-Y, Liao H-YM (2020) YOLOv4: Optimal Speed and Accuracy of Object Detection. https://doi.org/10.48550/arXiv.2004.10934 \newline
+[1] Bochkovskiy A, Wang C-Y, Liao H-YM (2020) YOLOv4: Optimal Speed and Accuracy of Object Detection. https://doi.org/10.48550/arXiv.2004.10934 \n
 [2] Bochkovskiy A (2021) GitHub - AlexeyAB/ darknet. In: GitHub. https://github.com/AlexeyAB/darknet/tree/master. Accessed 12 Mar 2024
