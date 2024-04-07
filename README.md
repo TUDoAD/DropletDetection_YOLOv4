@@ -1,6 +1,6 @@
 # DropletDetection-YOLOv4
 
-ADD DOI ZENODO
+[![DOI](https://zenodo.org/badge/782071617.svg)](https://zenodo.org/doi/10.5281/zenodo.10938289)
 
 This repository contains the code for the AI-based droplet detection by Inga Burke, Thajeevan Dhayaparan, Ahmed S. Youssef, Katharina Schmidt, and Norbert Kockmann, TU Dortmund University published here: ADD DOI PAPER.
 The code can be used to detect droplets automatically based on captured videos with the help of YOLOv4 and Hough Circle. 
