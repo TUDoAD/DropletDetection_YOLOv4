@@ -24,7 +24,7 @@ python yolov4.py -input_path input -output output -confidence 0.6
   <li>CS = confidence score; example: 0.6 means 60% confidence</li>
 </ul> 
 
-Further inputs are possible; please check the main skript for those. Additionally your piyel-to-micrometer ratio needs to be adapted in the yolov4.py as well as the input image size.
+Further inputs are possible; please check the main skript for those. Additionally your pixel-to-micrometer ratio needs to be adapted in the yolov4.py as well as the input image size.
 Here it's importatnt that the input image size is a multiple of 32.
 All information used for this work and program base on [1] and [2]. For further information those references are recoomended.
 
