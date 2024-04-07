@@ -13,6 +13,7 @@ See requirement.txt to create a conda virtual environment.
 
 Open this file to execute the whole workflow as shown below:
 [image](./images/YOLO_Workflow_Repo.pdf)
+<img src="./images/YOLO_Workflow_Repo.pdf" alt="YOLO_Workflow">
 
 The therminal command is given as Command_Terminal.txt file or can be found here:
 
