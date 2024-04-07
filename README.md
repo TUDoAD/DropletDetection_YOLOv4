@@ -14,6 +14,7 @@ See requirement.txt to create a conda virtual environment.
 Open this file to execute the whole workflow as shown below:
 <img src="./images/YOLO_Workflow_Repo.png" alt="YOLO_Workflow">
 
+Before running the AI-based detection, please download the weights checking Version 2 on zenodo.
 The therminal command is given as Command_Terminal.txt file or can be found here:
 
 python yolov4.py -input_path input -output output -confidence 0.6
@@ -32,6 +33,9 @@ All information used for this work and program base on [1] and [2]. For further 
 
 An example video to test the program is given in the input folder. An output folder is already created, where the statistical evaluation as well as the images including the detection are saved.
 Actually one frame per second is extracted of the video. If a higher number is necessary, an adaption of the code is necessary.
+
+### Training Data
+Training datasets are uploaded on zenodo, check Version 3.
 
 ### References
 [1] Bochkovskiy A, Wang C-Y, Liao H-YM (2020) YOLOv4: Optimal Speed and Accuracy of Object Detection. https://doi.org/10.48550/arXiv.2004.10934 <br>
