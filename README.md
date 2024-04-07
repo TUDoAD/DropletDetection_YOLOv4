@@ -34,5 +34,5 @@ An example video to test the program is given in the input folder. An output fol
 Actually one frame per second is extracted of the video. If a higher number is necessary, an adaption of the code is necessary.
 
 ### References
-[1] Bochkovskiy A, Wang C-Y, Liao H-YM (2020) YOLOv4: Optimal Speed and Accuracy of Object Detection. https://doi.org/10.48550/arXiv.2004.10934 \n
+[1] Bochkovskiy A, Wang C-Y, Liao H-YM (2020) YOLOv4: Optimal Speed and Accuracy of Object Detection. https://doi.org/10.48550/arXiv.2004.10934 <br>
 [2] Bochkovskiy A (2021) GitHub - AlexeyAB/ darknet. In: GitHub. https://github.com/AlexeyAB/darknet/tree/master. Accessed 12 Mar 2024
